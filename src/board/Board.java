@@ -342,16 +342,16 @@ public class Board{
 				try {
 					switch (this.listeTuiles[i-2][j-5].getOrientation().name()){
 		            case "SOUTH":
-		                orientation = "╦";
+		                orientation = "T";
 		                break;
 		            case "WEST":
-		            	orientation = "╣";
+		            	orientation = "-|";
 		            	break;
 		            case "NORTH":
-		            	orientation = "╩";
+		            	orientation = "_|_";
 		            	break;
 		            case "EAST":
-		            	orientation = "╠";
+		            	orientation = "|-";
 		            	break;
 
 					}
